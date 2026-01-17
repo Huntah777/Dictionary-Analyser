@@ -53,7 +53,7 @@ def filter_threshold(freq_dict, threshold):
     """
     result = {}
 
-    # TODO: Loop through items. If value > threshold, add to 'result' dictionary.
+    #Loop through items. If value > threshold, add to 'result' dictionary.
     for key, value in freq_dict.items():
         if value > threshold:
             result[key] = value
